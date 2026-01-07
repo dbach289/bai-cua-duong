@@ -1,0 +1,18 @@
+[
+    {
+        "student_code": "sv01",
+        "password": "sv01pass",
+        "name": "Nguyễn Văn A",
+        "email": "sva@example.com",
+        "class": "CNTT-1"
+    },
+    {
+        "student_code": "sv02",
+        "password": "sv02pass",
+        "name": "Trần Thị B",
+        "email": "svb@example.com",
+        "class": "CNTT-1"
+    }
+]
+
+

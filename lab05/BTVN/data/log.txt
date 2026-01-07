@@ -1,0 +1,24 @@
+<!-- Log file for debug (do not commit sensitive data in production) -->
+
+
+[2026-01-07T12:46:47+01:00] POST username=admin, password_len=8
+[2026-01-07T12:46:47+01:00] Found user: username=admin, email=admin@example.com
+[2026-01-07T12:46:47+01:00] password_verify => true
+[2026-01-07T13:02:27+01:00] POST username=admin, password_len=8
+[2026-01-07T13:02:27+01:00] Found user: username=admin, email=admin@example.com
+[2026-01-07T13:02:27+01:00] password_verify => true
+[2026-01-07T14:04:19+01:00] POST username=student, password_len=11
+[2026-01-07T14:04:19+01:00] Found user: username=student, email=student@example.com
+[2026-01-07T14:04:19+01:00] password_verify => false
+[2026-01-07T14:04:30+01:00] POST username=student, password_len=10
+[2026-01-07T14:04:30+01:00] Found user: username=student, email=student@example.com
+[2026-01-07T14:04:30+01:00] password_verify => true
+[2026-01-07T15:01:11+01:00] POST username=admin, password_len=8
+[2026-01-07T15:01:11+01:00] Found user: username=admin, email=admin@example.com
+[2026-01-07T15:01:11+01:00] password_verify => true
+[2026-01-07T15:15:53+01:00] POST username=admin, password_len=10
+[2026-01-07T15:15:53+01:00] Found user: username=admin, email=admin@example.com
+[2026-01-07T15:15:53+01:00] password_verify => false
+[2026-01-07T15:16:01+01:00] POST username=admin, password_len=8
+[2026-01-07T15:16:01+01:00] Found user: username=admin, email=admin@example.com
+[2026-01-07T15:16:01+01:00] password_verify => true

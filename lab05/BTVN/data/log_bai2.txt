@@ -1,0 +1,4 @@
+[2026-01-07T14:47:29+01:00] login attempt student_code=sv01, password_len=8
+[2026-01-07T14:47:29+01:00] student found, verify=true
+[2026-01-07T15:59:31+01:00] login attempt student_code=sv01, password_len=8
+[2026-01-07T15:59:31+01:00] student found, verify=true

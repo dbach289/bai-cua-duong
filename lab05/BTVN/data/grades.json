@@ -1,0 +1,7 @@
+[
+  { "student_code": "sv02", "course_id": 1, "grade": 8.0 },
+  { "student_code": "sv01", "course_id": 1, "grade": 7.5 },
+  { "student_code": "sv01", "course_id": 3, "grade": 8.2 }
+]
+
+

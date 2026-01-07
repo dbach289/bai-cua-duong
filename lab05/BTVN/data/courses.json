@@ -1,0 +1,7 @@
+[
+  { "id": 1, "code": "IT101", "title": "Nhập môn lập trình", "credits": 3 },
+  { "id": 2, "code": "IT102", "title": "Cấu trúc dữ liệu", "credits": 3 },
+  { "id": 3, "code": "IT201", "title": "Cơ sở dữ liệu", "credits": 3 }
+]
+
+

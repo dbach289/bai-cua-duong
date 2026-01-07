@@ -1,0 +1,122 @@
+.login-page{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background: linear-gradient(135deg,#f6f8ff 0%,#e8f0ff 100%);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    padding:20px;
+}
+.login-card{
+    width:100%;
+    max-width:420px;
+    background:#ffffff;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(22,50,92,0.08);
+    padding:28px;
+    box-sizing:border-box;
+    text-align:left;
+}
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:16px;
+}
+.brand-logo{
+    width:48px;
+    height:48px;
+    border-radius:8px;
+    background:linear-gradient(45deg,#6c8cff,#8fe0ff);
+    display:inline-block;
+}
+.brand-logo{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:4px;
+    background:transparent;
+    border-radius:10px;
+}
+.brand-logo svg{
+    width:40px;
+    height:40px;
+    display:block;
+    transform-origin:50% 50%;
+    animation: logo-spin 6s linear infinite, logo-bob 3.5s ease-in-out infinite;
+}
+@keyframes logo-spin{
+    0%{ transform: rotate(0deg) scale(1); }
+    50%{ transform: rotate(180deg) scale(1.05); }
+    100%{ transform: rotate(360deg) scale(1); }
+}
+@keyframes logo-bob{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-4px); }
+    100% { transform: translateY(0); }
+}
+.brand h1{
+    font-size:18px;
+    margin:0;
+    color:#123;
+}
+.alert{
+    background:#fff4f4;
+    color:#a33;
+    border:1px solid #f5c6c6;
+    padding:10px 12px;
+    border-radius:8px;
+    margin-bottom:14px;
+    font-size:14px;
+}
+.login-form .form-group{
+    margin-bottom:12px;
+}
+.login-form label{
+    display:block;
+    font-size:13px;
+    color:#334;
+    margin-bottom:6px;
+}
+.login-form input{
+    width:100%;
+    padding:10px 12px;
+    border:1px solid #e3e8ef;
+    border-radius:8px;
+    box-sizing:border-box;
+    font-size:14px;
+    background:#fbfdff;
+}
+.login-form input:focus{
+    outline:none;
+    border-color:#7aa2ff;
+    box-shadow:0 4px 14px rgba(122,162,255,0.12);
+}
+.btn{
+    width:100%;
+    padding:12px;
+    background:linear-gradient(90deg,#3b82f6,#6366f1);
+    color:white;
+    border:none;
+    border-radius:10px;
+    font-size:15px;
+    cursor:pointer;
+    margin-top:6px;
+}
+.btn:hover{
+    filter:brightness(.98);
+}
+.hint{
+    margin-top:14px;
+    font-size:13px;
+    color:#6b7280;
+    text-align:center;
+}
+@media (max-width:480px){
+    .login-card{
+        padding:20px;
+        border-radius:10px;
+    }
+}
+
+
